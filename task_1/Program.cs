@@ -5,9 +5,9 @@
 // a = -3, b = 9 --> нет
 
 Console.WriteLine("Введите первое число: ");
-int a = int.Parse(Console.ReadLine());
+int a = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите второе число: ");
-int b = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine()!);
 if (b*b == a) 
     { // Когда в ветках после условия имеется только одно действие, фигурные скобочки можно ставить, а можно и не ставить (как и в данной программе, если убрать фигурные скобочки, то ничего не поменяется)
         Console.WriteLine("Первое число является квадратом второго");
